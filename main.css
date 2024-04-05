@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+.container {
+    position: absolute;
+        left: 50%;
+        
+}
+.foto {
+    size-adjust: 400px, 800px;
+    opacity: 30%;
+    position: relative;
+        left: 20%;
+}

@@ -1,14 +1,107 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-image:url(https://image.freepik.com/free-photo/car-workshop-background_23-2147897921.jpg);
+    background-size: 150%, 100%;
+
 }
-.container {
-    position: absolute;
-        left: 50%;
+
+img.foto {
+    height: 890px;
+    width: 800px;
+    opacity: 80%;
+    position: relative;
+        left: 2%;
+    border-radius: 10%;
         
 }
-.foto {
-    size-adjust: 400px, 800px;
-    opacity: 30%;
-    position: relative;
-        left: 20%;
+
+.bot {
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+    position: absolute;
+        left: 10%;
+        top: 10%;
+    z-index: 4;
+    background-color: rgb(255, 20, 20);
 }
+.bot2 {
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+    position: absolute;
+        left: 50%;
+        top: 20%;
+        left: 10%;
+    z-index: 4;
+    background-color: rgb(126, 126, 126);
+}
+
+.bot3 {
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+    position: absolute;
+        left: 50%;
+        top: 30%;
+        left: 10%;
+    z-index: 4;
+    background-color: rgb(126, 126, 126);}
+
+img.carro {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+        left: 58%;
+        top: 5%;
+    border-radius: 10%;
+    z-index: 1;
+}
+
+.bot4 {
+    border-radius: 20px;
+    height: 30px;
+    width: 500px;
+    position: absolute;
+        left: 50%;
+        top: 40%;
+        left: 10%;
+    z-index: 4;
+    background-color: rgb(26, 5, 143);
+}
+
+.bot5 {
+    border-radius: 20px;
+    height: 30px;
+    width: 500px;
+    position: absolute;
+        left: 50%;
+        top: 50%;
+        left: 10%;
+    z-index: 4;
+    background-color: rgb(26, 5, 143);
+}
+
+.bot6 {
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+    position: absolute;
+        left: 50%;
+        top: 60%;
+        left: 10%;
+    z-index: 4;
+    background-color: rgb(26, 5, 143);
+    color: antiquewhite;
+    font-size: 20px;
+}
+.graf {
+    height: 200px;
+    width: 500px;
+    position: absolute;
+        left: 10%;
+        top: 70%;
+    border-radius: 10%;
+    z-index: 1;
+    
+}
+
